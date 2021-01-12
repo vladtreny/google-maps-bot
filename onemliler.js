@@ -76,3 +76,38 @@ const deneme = (sanirim) => {
 const bumbe = deneme('abijim');
 
 bumbe.zalim();
+
+
+addEventListener("scroll", () => {
+  var d = new Date();
+  var n = d.getMilliseconds();
+  console.log(n);
+  // maybe push to array
+})
+
+var l = [329, 343, 359, 376, 392, 409, 426, 444, 459, 476, 492, 508, 525, 542, 560, 575, 592]
+var b = 0;
+var z = 0;
+l.forEach(element => {
+  z = element - b;
+  b = element;
+  console.log(z);
+});
+
+/* Linux Mozilla Laptop Milliseconds between scrolls
+14 debugger eval code:7:11
+16 debugger eval code:7:11
+17 debugger eval code:7:11
+16 debugger eval code:7:11
+17 debugger eval code:7:11
+17 debugger eval code:7:11
+18 debugger eval code:7:11
+15 debugger eval code:7:11
+17 debugger eval code:7:11
+16 debugger eval code:7:11
+16 debugger eval code:7:11
+17 debugger eval code:7:11
+17 debugger eval code:7:11
+18 debugger eval code:7:11
+15 debugger eval code:7:11
+17 */

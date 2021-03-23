@@ -2,14 +2,14 @@
 
 /*
 let essek = new Promise((resolve, reject) => {
-    console.log("denioz bakam")
-    resolve("adamim")
+    console.log("denioz bakalm")
+    resolve("asdfa")
 })
 
 essek.then(text => {
     console.log(text)
-    let donbakam = "salamlarr"
-    return donbakam
+    let donb = "selam"
+    return donb
 })
 .then(text => {
     console.log(text)
@@ -31,10 +31,6 @@ console.log(arrayhali[randomsayi])
 /*
 let bum = 'selam' + 'ben ' + 'ahali'
 console.log(bum)
-
-let cum = 3.16
-
-console.log(parseInt(cum))
 
 addEventListener("scroll", () => {
   console.log(document.documentElement.scrollTop);
@@ -73,9 +69,6 @@ const deneme = (sanirim) => {
   return act;
 };
 
-const bumbe = deneme('abijim');
-
-bumbe.zalim();
 
 
 addEventListener("scroll", () => {
